@@ -6,6 +6,8 @@ import data from './data.js'
 
 export default function App() {
 
+  
+  
   const tiles = data.map(item => {
   
   return (
@@ -22,6 +24,7 @@ export default function App() {
         visits={item.stats.visits}
         description={item.description}
         url={item.URL}
+        additionalImg={item.additionalImg}
     />)})
     
   return (
