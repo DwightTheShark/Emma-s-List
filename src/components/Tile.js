@@ -12,6 +12,12 @@ export default function Tile(props) {
     //     return <img src={`/${props.img}`} className="tile--image" />
 
     // })
+
+    let additionalImg
+    if (props.additionalImg === true) {
+        additionalImg = <img src={`/${props.additionalImg}`} className="tile--image" />
+    } 
+    
     
    
     
@@ -37,10 +43,9 @@ export default function Tile(props) {
                 <div className="title--info">
                     <p className="tile--description">{props.description}</p>
                 </div>
-                <section>
-                <img src={`/${props.additionalImg}`} className="tile--image" />
-                    img
-                    img
+                <section className="additional">
+                <img src={`/${props.additionalImg}`} className="tiles--additional" /> 
+                {/* {additionalImg} */}
                 </section>
             </div>
         </div>

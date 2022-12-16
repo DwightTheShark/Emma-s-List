@@ -13,7 +13,10 @@ export default [
             visits: 32
         },
         URL: "https://www.google.com/maps/place/Mundy+Park+Off+Leash+Dog+Park/@49.2524476,-122.8163017,15z/data=!4m2!3m1!1s0x0:0x49e991325243b83a?sa=X&ved=2ahUKEwjnvf7Pxu37AhWgHjQIHQPdDk4Q_BJ6BQiCARAI" ,
-        smalldogs: "Yes"
+        smalldogs: true,
+        water: true,
+        fence: true,
+        offLeashWandering: true,
     },
       {
           id: 2,
@@ -30,7 +33,10 @@ export default [
               visits: 121,
           },
           URL: "https://www.google.com/maps/place/Glen+Park+Off-Leash+Dog+Area/@49.2816454,-122.787408,15z/data=!4m2!3m1!1s0x0:0xb643703b82181da2?sa=X&ved=2ahUKEwiUn6mxx-37AhWaAjQIHc28B2QQ_BJ6BAhvEAg",
-          smalldogs: "Yes",
+          smalldogs: true,
+          water: false,
+          fence: true,
+          offLeashWandering: false,
       },
       {
           id: 3,
@@ -46,7 +52,10 @@ export default [
               visits: 0
           },
           URL: "https://www.google.com/search?q=dog+swim+vancouver&rlz=1C1VIQF_enCA992CA992&biw=2133&bih=1004&tbm=lcl&sxsrf=ALiCzsZ9NMnq5F42cbFwMey8fQ8V3sLkng%3A1670624092503&ei=XLOTY4eyHqmO0PEP16WZ-A0&oq=dog+swim&gs_lcp=Cg1nd3Mtd2l6LWxvY2FsEAMYADIECAAQQzIICAAQgAQQyQMyBQgAEJIDMgUIABCRAjIECAAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgQIIxAnOgcIABDJAxBDOhAIABCABBCHAhCxAxCDARAUOgoIABCABBCHAhAUOggIABDJAxCRAlAAWOQHYJAPaABwAHgAgAGBAYgBhwWSAQM3LjGYAQCgAQHAAQE&sclient=gws-wiz-local",
-          smalldogs: "Yes",
+          smalldogs: true,
+          water: true,
+          fence: true,
+          offLeashWandering: false,
       },
       {
         id: 4,
@@ -62,7 +71,10 @@ export default [
             visits: 1
         },
         URL: "https://www.alltrails.com/explore/recording/evening-hike-at-furry-creek-knob-deck-trail-798cebc",
-        smalldogs: "Yes",
+        smalldogs: false,
+        water: false,
+        fence: false,
+        offLeashWandering: true,
     },
     {
         id: 5,
@@ -78,7 +90,10 @@ export default [
             visits: 6
         },
         URL: "https://www.google.com/maps/place/Lafarge+Lake,+Coquitlam,+BC/data=!4m2!3m1!1s0x54867f3ab0bd1c87:0x80dbe5abad867d41?sa=X&ved=2ahUKEwicgIDhzu37AhXKoFsKHXvkBv0Q8gF6BQiDARAB",
-        smalldogs: "Yes",
+        smalldogs: false,
+        water: false,
+        fence: false,
+        offLeashWandering: false,
     },
     {
         id: 6,
@@ -94,7 +109,10 @@ export default [
             visits: 1
         },
         URL: "https://www.google.com/maps/place/Castle+Park+Off-leash+Dog+Area/@49.2309884,-122.7814515,15z/data=!4m2!3m1!1s0x0:0xba75c33c25a8cadd?sa=X&ved=2ahUKEwj3opaA6Pn7AhXdHzQIHabtARQQ_BJ6BAhzEAg",
-        smalldogs: "No",
+        smalldogs: true,
+        water: true,
+        fence: true,
+        offLeashWandering: false,
     },
     {
         id: 6,
@@ -109,7 +127,10 @@ export default [
             visits: 25
         },
         URL: "https://www.google.com/maps/place/Barnet+Marine+Park/@49.2904319,-122.9237377,15z/data=!4m2!3m1!1s0x0:0x2790e0339c216d11?sa=X&ved=2ahUKEwjS8t6d5f77AhXKIzQIHXsXBYwQ_BJ6BQiDARAI",
-        smalldogs: "No",
+        smalldogs: false,
+        water: true,
+        fence: false,
+        offLeashWandering: true,
     },
     {
         id: 7,
@@ -124,6 +145,9 @@ export default [
             visits: 1
         },
         URL: "https://www.google.com/maps/place/Skyline+Park+Off-leash+Dog+Area/@49.2387863,-122.7860322,15z/data=!4m5!3m4!1s0x0:0xa2240ca38f6dd814!8m2!3d49.2387863!4d-122.7860322",
-        smalldogs: "No",
+        smalldogs: false,
+        water: false,
+        fence: false,
+        offLeashWandering: false,
     }
 ]
