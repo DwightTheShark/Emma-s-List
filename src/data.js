@@ -103,14 +103,27 @@ export default [
         description: "The off-leash dog park at Castle Park is a large, unfenced grass field.",
         price: 0,
         coverImg: "barnetmarine.jpg",
-        additionalImg: "mundy1.jpg",
-        additionalImages: [],
         stats: {
             rating: 4.9,
             reviewCount: 6,
             visits: 25
         },
-        URL: "https://www.google.com/maps/place/Castle+Park+Off-leash+Dog+Area/@49.2309884,-122.7814515,15z/data=!4m2!3m1!1s0x0:0xba75c33c25a8cadd?sa=X&ved=2ahUKEwj3opaA6Pn7AhXdHzQIHabtARQQ_BJ6BAhzEAg",
+        URL: "https://www.google.com/maps/place/Barnet+Marine+Park/@49.2904319,-122.9237377,15z/data=!4m2!3m1!1s0x0:0x2790e0339c216d11?sa=X&ved=2ahUKEwjS8t6d5f77AhXKIzQIHXsXBYwQ_BJ6BQiDARAI",
+        smalldogs: "No",
+    },
+    {
+        id: 7,
+        city: "burnaby",
+        title: "skyline park",
+        description: "Located under the power lines, Skyline Dog Park is an unfenced grassy area with a neighbourhood path running through it.",
+        price: 0,
+        coverImg: "skyline.jpg",
+        stats: {
+            rating: 0,
+            reviewCount: 0,
+            visits: 1
+        },
+        URL: "https://www.google.com/maps/place/Skyline+Park+Off-leash+Dog+Area/@49.2387863,-122.7860322,15z/data=!4m5!3m4!1s0x0:0xa2240ca38f6dd814!8m2!3d49.2387863!4d-122.7860322",
         smalldogs: "No",
     }
 ]
