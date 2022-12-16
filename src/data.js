@@ -6,6 +6,7 @@ export default [
         description: "Great offleash walking trails as well as a dog park",
         price: 0,
         coverImg: "mundycover.jpg",
+        additionalImg: "mundy1.jpg",
         stats: {
             rating: 5.0,
             reviewCount: 18,
@@ -22,6 +23,7 @@ export default [
           description: "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
           price: 0,
           coverImg: "glenpine2.jpg",
+          additionalImg: "mundy1.jpg",
           stats: {
               rating: 4.2,
               reviewCount: 30,
@@ -37,6 +39,7 @@ export default [
           description: "Swimming is a great way for your dog to exercise and have fun. We offer a clean, safe and modern alternative to taking your dog down to the beach. We are open all year round so you can treat your dog to a fun swim session no matter what season it is.",
           price: 50,
           coverImg: "dogswim.jpg",
+          additionalImg: "mundy1.jpg",
           stats: {
               rating: 4.5,
               reviewCount: 87,
@@ -52,6 +55,7 @@ export default [
         description: "Swimming is a great way for your dog to exercise and have fun. We offer a clean, safe and modern alternative to taking your dog down to the beach. We are open all year round so you can treat your dog to a fun swim session no matter what season it is.",
         price: 0,
         coverImg: "furrycreek.jpg",
+        additionalImg: "mundy1.jpg",
         stats: {
             rating: 10,
             reviewCount: 1,
@@ -67,6 +71,7 @@ export default [
         description: "The geese poop is frustrating with a puppy.",
         price: 0,
         coverImg: "lafarge.jpg",
+        additionalImg: "lafarge1.jpg",
         stats: {
             rating: 3.5,
             reviewCount: 6,
@@ -82,6 +87,7 @@ export default [
         description: "The off-leash dog park at Castle Park is a large, unfenced grass field.",
         price: 0,
         coverImg: "castlepark.jpg",
+        additionalImg: "mundy1.jpg",
         stats: {
             rating: 4.1,
             reviewCount: 1,
@@ -97,6 +103,8 @@ export default [
         description: "The off-leash dog park at Castle Park is a large, unfenced grass field.",
         price: 0,
         coverImg: "barnetmarine.jpg",
+        additionalImg: "mundy1.jpg",
+        additionalImages: [],
         stats: {
             rating: 4.9,
             reviewCount: 6,
