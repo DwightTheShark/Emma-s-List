@@ -29,7 +29,7 @@ export default function App() {
     
   return (
     <div className="App">
-      <b>{process.env.TEST_KEY}</b>
+      <b>{process.env.REACT_APP_TEST_KEY}</b>
       <Header />
       <section className="tiles-list">
                 {tiles}
