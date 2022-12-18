@@ -1,4 +1,4 @@
-![logo](emmalogo.jpg)
+![My Image](traveljournal/public/emmalogo.jpg)
 
 # Emma's Parks
 
@@ -9,4 +9,4 @@ Working project for demonstrating ongoing skill development and practice in Reac
 ## Demo
 [Live here](https://emmaslist.netlify.app/)
 
-[![Twitter Link](https://img.shields.io/twitter/follow/witchadora?style=social)
+![Twitter Link](https://img.shields.io/twitter/follow/witchadora?style=social)
