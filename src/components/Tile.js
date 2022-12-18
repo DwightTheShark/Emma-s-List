@@ -1,4 +1,6 @@
 import data from "../data.js"
+import GoogleMapReact from 'google-map-react';
+
 
 export default function Tile(props) {
     // let badgeText
@@ -10,9 +12,8 @@ export default function Tile(props) {
     
 
     let additionalImg
-    //if it's an array map through
     if (props.additionalImg instanceof Array) {
-        additionalImg = props.additionalImg.map((item) => <img src={item.src} className="tiles--additional" />)
+        additionalImg = props.additionalImg.map((item) => <img src={item.src} alt={item.alt} className="tiles--additional" />)
     } else if (typeof props.additionalImg != "undefined") {
         additionalImg = <img src={`/${props.additionalImg}`} className="tiles--additional" />
     }   else {
