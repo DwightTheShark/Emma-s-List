@@ -29,6 +29,7 @@ export default function App() {
     
   return (
     <div className="App">
+      <b>{process.env.TEST_KEY}</b>
       <Header />
       <section className="tiles-list">
                 {tiles}
