@@ -1,6 +1,3 @@
-![My Image](traveljournal/public/emmalogo.jpg)
-![My Image]([traveljournal/public/emmalogo.jpg](https://asset.cloudinary.com/dzhsepmtv/6f76ae3b5468071646be3644b8cbc1d4))
-![logo]([https://asset.cloudinary.com/dzhsepmtv/6f76ae3b5468071646be3644b8cbc1d4](https://res.cloudinary.com/dzhsepmtv/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1671386331/EmmasList/emmalogo_pnn99p.jpg))
 ![logo](https://res.cloudinary.com/dzhsepmtv/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1671386331/EmmasList/emmalogo_pnn99p.jpg)
 
 
