@@ -1,4 +1,7 @@
 ![My Image](traveljournal/public/emmalogo.jpg)
+![My Image]([traveljournal/public/emmalogo.jpg](https://asset.cloudinary.com/dzhsepmtv/6f76ae3b5468071646be3644b8cbc1d4))
+![logo](https://asset.cloudinary.com/dzhsepmtv/6f76ae3b5468071646be3644b8cbc1d4)
+
 
 # Emma's Parks
 
