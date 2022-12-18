@@ -6,7 +6,7 @@ export default [
         description: "Great offleash walking trails as well as a dog park",
         price: 0,
         coverImg: "mundycover.jpg",
-        additionalImg: "mundy1.jpg",
+        additionalImg: ["mundy1.jpg", "mundy2.jpg", "mundy3.jpg", "mundy4.jpg", "mundy5.jpg"],
         stats: {
             rating: 5.0,
             reviewCount: 18,
@@ -115,7 +115,7 @@ export default [
         offLeashWandering: false,
     },
     {
-        id: 6,
+        id: 7,
         city: "burnaby",
         title: "barnet marine park",
         description: "The off-leash dog park at Castle Park is a large, unfenced grass field.",
@@ -133,8 +133,8 @@ export default [
         offLeashWandering: true,
     },
     {
-        id: 7,
-        city: "burnaby",
+        id: 8,
+        city: "port coquitlam",
         title: "skyline park",
         description: "Located under the power lines, Skyline Dog Park is an unfenced grassy area with a neighbourhood path running through it.",
         price: 0,

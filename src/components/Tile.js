@@ -8,15 +8,17 @@ export default function Tile(props) {
     //     badgeText = "Small dogs"
     // }
     
-    // const additionalImg = data.map(item => {
-    //     return <img src={`/${props.img}`} className="tile--image" />
-
-    // })
 
     let additionalImg
-    if (props.additionalImg === true) {
-        additionalImg = <img src={`/${props.additionalImg}`} className="tile--image" />
-    } 
+    //if it's an array
+    if (props.additionalImg instanceof Array) {
+        console.log("winner!")
+    } else if (typeof props.additionalImg != "undefined") {
+        additionalImg = <img src={`/${props.additionalImg}`} className="tiles--additional" />
+    }   else {
+        console.log("fail")
+    }
+   
     
     
    
@@ -44,8 +46,7 @@ export default function Tile(props) {
                     <p className="tile--description">{props.description}</p>
                 </div>
                 <section className="additional">
-                <img src={`/${props.additionalImg}`} className="tiles--additional" /> 
-                {/* {additionalImg} */}
+                {additionalImg}
                 </section>
             </div>
         </div>
