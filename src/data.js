@@ -6,7 +6,13 @@ export default [
         description: "Great offleash walking trails as well as a dog park",
         price: 0,
         coverImg: "mundycover.jpg",
-        additionalImg: ["mundy1.jpg", "mundy2.jpg", "mundy3.jpg", "mundy4.jpg", "mundy5.jpg"],
+        additionalImg: [
+            {src: "mundy1.jpg", alt: "dogs at mundy"}, 
+            {src: "mundy2.jpg", alt: "dogs at mundy"}, 
+            {src: "mundy3.jpg", alt: "dogs at mundy"},
+            {src: "mundy4.jpg", alt: "dogs at mundy"}, 
+            {src: "mundy5.jpg", alt: "dogs at mundy"}
+        ],
         stats: {
             rating: 5.0,
             reviewCount: 18,

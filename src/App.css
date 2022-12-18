@@ -96,6 +96,7 @@ h1 {
  .tile--description {
   margin-top: 1em;
  }
+
  .tiles--additional {
   display: flex;
   flex-wrap: nowrap;
@@ -105,4 +106,10 @@ h1 {
   height: 10rem;
   object-fit: cover;
   border-radius: 5px;
+  margin: .5rem
+}
+
+.more {
+  display: flex;
+  flex-direction: row;
 }

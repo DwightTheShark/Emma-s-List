@@ -10,9 +10,9 @@ export default function Tile(props) {
     
 
     let additionalImg
-    //if it's an array
+    //if it's an array map through
     if (props.additionalImg instanceof Array) {
-        console.log("winner!")
+        additionalImg = props.additionalImg.map((item) => <img src={item.src} className="tiles--additional" />)
     } else if (typeof props.additionalImg != "undefined") {
         additionalImg = <img src={`/${props.additionalImg}`} className="tiles--additional" />
     }   else {
@@ -45,7 +45,7 @@ export default function Tile(props) {
                 <div className="title--info">
                     <p className="tile--description">{props.description}</p>
                 </div>
-                <section className="additional">
+                <section className="more">
                 {additionalImg}
                 </section>
             </div>
