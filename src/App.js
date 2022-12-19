@@ -8,11 +8,7 @@ import Map from './components/Map/Map'
 
 export default function App() {
 
-  const location = {
-    address: '501 Mariner Way, Coquitlam, BC',
-    Lat: 49.25,
-    Lng: -122.82,
-  }
+
   
   const tiles = data.map(item => {
   
@@ -39,7 +35,6 @@ export default function App() {
       <section className="tiles-list">
                 {tiles}
       </section>
-      <Map location={location} zoomLevel={14}/>
     </div>
   );
 }

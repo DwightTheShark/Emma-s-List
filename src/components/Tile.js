@@ -1,5 +1,5 @@
 import data from "../data.js"
-import GoogleMapReact from 'google-map-react';
+import Map from "../components/Map/Map"
 
 
 export default function Tile(props) {
@@ -20,6 +20,15 @@ export default function Tile(props) {
         console.log("fail")
     }
    
+    const map = data.map(item => {
+  
+        return (
+          <Map
+              key={item.id}
+              lat={item.location.lat}
+              lng={item.location.lng}
+              title={item.title}
+          />)})
 
     return (
         <div className="tile">
@@ -45,6 +54,7 @@ export default function Tile(props) {
                 </div>
                 <section className="more">
                 {additionalImg}
+                <Map />
                 </section>
             </div>
         </div>
