@@ -1,12 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header.js';
-import Tile from './components/Tile.js'
-import data from './data.js'
+import Tile from './components/Tile.js';
+import data from './data.js';
+import Map from './components/Map/Map'
+
 
 export default function App() {
 
-  
+  const location = {
+    address: '501 Mariner Way, Coquitlam, BC',
+    Lat: 49.25,
+    Lng: -122.82,
+  }
   
   const tiles = data.map(item => {
   
@@ -29,12 +35,11 @@ export default function App() {
     
   return (
     <div className="App">
-      <b>{process.env.REACT_APP_TEST_KEY}</b>
       <Header />
       <section className="tiles-list">
                 {tiles}
       </section>
-      
+      <Map location={location} zoomLevel={14}/>
     </div>
   );
 }

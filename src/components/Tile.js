@@ -20,10 +20,7 @@ export default function Tile(props) {
         console.log("fail")
     }
    
-    
-    
-   
-    
+
     return (
         <div className="tile">
             <div className = "tile--left">
