@@ -1,5 +1,8 @@
 import data from "../data.js"
 import Map from "../components/Map/Map"
+import { Icon } from '@iconify/react'
+import locationIcon from '@iconify/icons-mdi/map-marker'
+import starIcon from '@iconify/icons-mdi/star-box'
 
 
 export default function Tile(props) {
@@ -32,11 +35,11 @@ export default function Tile(props) {
             <div className="tile--right">
                 <span className="tile--title">{props.title}</span>
                 <div className="city">
-                    <img src="/pin.png" className="tile--pin"/> 
+                    <Icon icon={locationIcon} className="tile-pin-icon" />
                     <span className="gray">{props.city}</span>
                 </div>
                 <div className="ratings">
-                    <span className="gray"><img src="/star.png" className="tile--star"/>{props.rating}  / 5 • {props.visits} visits</span>
+                    <span className="gray"><Icon icon={starIcon} className="tile-pin-icon" />{props.rating}  / 5 • {props.visits} visits</span>
                 </div>
                 <div>
                 <a href={props.url} className="gray">GOOGLE MAPS</a>
@@ -46,13 +49,14 @@ export default function Tile(props) {
                 </div>
                 <section className="more">
                 {additionalImg}
-                <Map
+                </section><div/></div>
+                <div className="tile--farright"><Map
               lat={props.location.lat}
               lng={props.location.lng}
               title={props.title}
-          />
-                </section>
-            </div>
+          /></div>
+                
+            
         </div>
     )
 }

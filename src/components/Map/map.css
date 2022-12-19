@@ -2,8 +2,13 @@
   
   .google-map {
     height: '20rem', 
+
   }
   
+  .map {
+    display: flex;
+    margin: 60px;
+  }
   .pin {
     display: flex;
     align-items: center;

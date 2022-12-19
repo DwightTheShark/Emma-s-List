@@ -31,7 +31,7 @@ export default function Map(props){
 
   return (
     // Important! Always set the container height explicitly
-    <div className="map" style={{ height: '20rem', width: '30rem', overflow: 'hidden' }}>
+    <div className="map" style={{ height: '30rem', width: '20rem', overflow: 'hidden' }}>
       <GoogleMapReact
         bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLEMAPSKEY }}
         defaultCenter={defaultProps.center}
