@@ -27,6 +27,7 @@ export default function App() {
         description={item.description}
         url={item.URL}
         additionalImg={item.additionalImg}
+        
     />)})
     
   return (
