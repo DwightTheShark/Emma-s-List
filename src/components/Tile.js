@@ -12,6 +12,7 @@ export default function Tile(props) {
     
 
     let additionalImg
+    
     if (props.additionalImg instanceof Array) {
         additionalImg = props.additionalImg.map((item) => <img src={item.src} alt={item.alt} className="tiles--additional" />)
     } else if (typeof props.additionalImg != "undefined") {
@@ -20,16 +21,7 @@ export default function Tile(props) {
         console.log("fail")
     }
    
-    const map = data.map(item => {
-  
-        return (
-          <Map
-              key={item.id}
-              lat={item.location.lat}
-              lng={item.location.lng}
-              title={item.title}
-          />)})
-
+    
     return (
         <div className="tile">
             <div className = "tile--left">
@@ -54,7 +46,11 @@ export default function Tile(props) {
                 </div>
                 <section className="more">
                 {additionalImg}
-                <Map />
+                <Map
+              lat={props.location.lat}
+              lng={props.location.lng}
+              title={props.title}
+          />
                 </section>
             </div>
         </div>

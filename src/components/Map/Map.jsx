@@ -6,13 +6,6 @@ import data from '../../data'
 import './map.css'
 
 
-const LocationPin = ({ text }) => (
-  <div className="pin">
-    <Icon icon={locationIcon} className="pin-icon" />
-    <p className="pin-text">{text}</p>
-  </div>
-)
-
 // let location = {
 //   address: '501 Mariner Way, Coquitlam, BC',
 //   lat: 49.25,
@@ -25,12 +18,20 @@ export default function Map(props){
       lat: 49.25281175491787, 
       lng: -122.81645190370614
     },
-    zoom: 11
+    zoom: 10
   };
+
+  const LocationPin = ({ text }) => (
+    <div className="pin">
+      <Icon icon={locationIcon} className="pin-icon" />
+      <p className="pin-text">{props.title}</p>
+    </div>
+  )
+
 
   return (
     // Important! Always set the container height explicitly
-    <div style={{ height: '20rem', width: '30rem' }}>
+    <div className="map" style={{ height: '20rem', width: '30rem', overflow: 'hidden' }}>
       <GoogleMapReact
         bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLEMAPSKEY }}
         defaultCenter={defaultProps.center}

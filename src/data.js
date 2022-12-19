@@ -187,5 +187,27 @@ export default [
         water: false,
         fence: false,
         offLeashWandering: false,
+    },
+    {
+        id: 9,
+        city: "coquitlam",
+        title: "Leigh Park Off-Leash Dog Park",
+        description: "Leigh Park Off-Leash Dog Park has a large, fully fenced and gated enclosure with a gravel base. Street parking is available on Soball Street.",
+        price: 0,
+        coverImg: "leighpark.jpg",
+        stats: {
+            rating: 3.4,
+            reviewCount: 1,
+            visits: 1
+        },
+        location: {
+            lat: 20,
+            lng: -10
+        },
+        URL: "https://www.gohttps://www.google.com/maps/place/Leigh+Park+Off-Leash+Dog+Area/@49.2878731,-122.7509211,15z/data=!4m2!3m1!1s0x0:0x8112693070c0d60?sa=X&ved=2ahUKEwjy2dG41oT8AhW1GTQIHSxQDgcQ_BJ6BAhqEAgogle.com/maps/place/Skyline+Park+Off-leash+Dog+Area/@49.2387863,-122.7860322,15z/data=!4m5!3m4!1s0x0:0xa2240ca38f6dd814!8m2!3d49.2387863!4d-122.7860322",
+        smalldogs: true,
+        water: true,
+        fence: true,
+        offLeashWandering: false,
     }
 ]
