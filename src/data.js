@@ -23,6 +23,7 @@ export default [
             lng: -122.81645190370614
         },
         URL: "https://www.google.com/maps/place/Mundy+Park+Off+Leash+Dog+Park/@49.2524476,-122.8163017,15z/data=!4m2!3m1!1s0x0:0x49e991325243b83a?sa=X&ved=2ahUKEwjnvf7Pxu37AhWgHjQIHQPdDk4Q_BJ6BQiCARAI" ,
+        features: [smalldogs, water, fence, hiking],
         smalldogs: true,
         water: true,
         fence: true,
@@ -47,6 +48,7 @@ export default [
             lng: -122.78734362698307
         },
           URL: "https://www.google.com/maps/place/Glen+Park+Off-Leash+Dog+Area/@49.2816454,-122.787408,15z/data=!4m2!3m1!1s0x0:0xb643703b82181da2?sa=X&ved=2ahUKEwiUn6mxx-37AhWaAjQIHc28B2QQ_BJ6BAhvEAg",
+          features: [smalldogs, fence],
           smalldogs: true,
           water: false,
           fence: true,
@@ -70,6 +72,7 @@ export default [
             lng: -122.81645190370614
         },
           URL: "https://www.google.com/search?q=dog+swim+vancouver&rlz=1C1VIQF_enCA992CA992&biw=2133&bih=1004&tbm=lcl&sxsrf=ALiCzsZ9NMnq5F42cbFwMey8fQ8V3sLkng%3A1670624092503&ei=XLOTY4eyHqmO0PEP16WZ-A0&oq=dog+swim&gs_lcp=Cg1nd3Mtd2l6LWxvY2FsEAMYADIECAAQQzIICAAQgAQQyQMyBQgAEJIDMgUIABCRAjIECAAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgQIIxAnOgcIABDJAxBDOhAIABCABBCHAhCxAxCDARAUOgoIABCABBCHAhAUOggIABDJAxCRAlAAWOQHYJAPaABwAHgAgAGBAYgBhwWSAQM3LjGYAQCgAQHAAQE&sclient=gws-wiz-local",
+          features: [smalldogs, water, fence],
           smalldogs: true,
           water: true,
           fence: true,
