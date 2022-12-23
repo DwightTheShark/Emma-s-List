@@ -68,7 +68,8 @@ h1 {
 }
 
 .features {
-  color: #2B283A
+  color: #2B283A;
+  size: 1.5rem;
 }
 .tile--right {
   margin: 60px;
