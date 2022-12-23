@@ -23,7 +23,7 @@ export default [
             lng: -122.81645190370614
         },
         URL: "https://www.google.com/maps/place/Mundy+Park+Off+Leash+Dog+Park/@49.2524476,-122.8163017,15z/data=!4m2!3m1!1s0x0:0x49e991325243b83a?sa=X&ved=2ahUKEwjnvf7Pxu37AhWgHjQIHQPdDk4Q_BJ6BQiCARAI" ,
-        features: [smalldogs, water, fence, hiking],
+        features: ["smalldogs", "water", "fence", "hiking"],
         smalldogs: true,
         water: true,
         fence: true,
@@ -48,7 +48,7 @@ export default [
             lng: -122.78734362698307
         },
           URL: "https://www.google.com/maps/place/Glen+Park+Off-Leash+Dog+Area/@49.2816454,-122.787408,15z/data=!4m2!3m1!1s0x0:0xb643703b82181da2?sa=X&ved=2ahUKEwiUn6mxx-37AhWaAjQIHc28B2QQ_BJ6BAhvEAg",
-          features: [smalldogs, fence],
+          features: ["smalldogs", "fence"],
           smalldogs: true,
           water: false,
           fence: true,
@@ -72,7 +72,7 @@ export default [
             lng: -122.81645190370614
         },
           URL: "https://www.google.com/search?q=dog+swim+vancouver&rlz=1C1VIQF_enCA992CA992&biw=2133&bih=1004&tbm=lcl&sxsrf=ALiCzsZ9NMnq5F42cbFwMey8fQ8V3sLkng%3A1670624092503&ei=XLOTY4eyHqmO0PEP16WZ-A0&oq=dog+swim&gs_lcp=Cg1nd3Mtd2l6LWxvY2FsEAMYADIECAAQQzIICAAQgAQQyQMyBQgAEJIDMgUIABCRAjIECAAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgQIIxAnOgcIABDJAxBDOhAIABCABBCHAhCxAxCDARAUOgoIABCABBCHAhAUOggIABDJAxCRAlAAWOQHYJAPaABwAHgAgAGBAYgBhwWSAQM3LjGYAQCgAQHAAQE&sclient=gws-wiz-local",
-          features: [smalldogs, water, fence],
+          features: ["smalldogs", "water", "fence"],
           smalldogs: true,
           water: true,
           fence: true,
@@ -96,6 +96,7 @@ export default [
             lng: -122.81645190370614
         },
         URL: "https://www.alltrails.com/explore/recording/evening-hike-at-furry-creek-knob-deck-trail-798cebc",
+        features: ["hiking"],
         smalldogs: false,
         water: false,
         fence: false,
@@ -119,10 +120,7 @@ export default [
             lng: -122.81645190370614
         },
         URL: "https://www.google.com/maps/place/Lafarge+Lake,+Coquitlam,+BC/data=!4m2!3m1!1s0x54867f3ab0bd1c87:0x80dbe5abad867d41?sa=X&ved=2ahUKEwicgIDhzu37AhXKoFsKHXvkBv0Q8gF6BQiDARAB",
-        smalldogs: false,
-        water: false,
-        fence: false,
-        offLeashWandering: false,
+        features: ["hiking"]
     },
     {
         id: 6,
@@ -142,10 +140,7 @@ export default [
             lng: -122.81645190370614
         },
         URL: "https://www.google.com/maps/place/Castle+Park+Off-leash+Dog+Area/@49.2309884,-122.7814515,15z/data=!4m2!3m1!1s0x0:0xba75c33c25a8cadd?sa=X&ved=2ahUKEwj3opaA6Pn7AhXdHzQIHabtARQQ_BJ6BAhzEAg",
-        smalldogs: true,
-        water: true,
-        fence: true,
-        offLeashWandering: false,
+        features: ["water", "smalldogs", "fence"],
     },
     {
         id: 7,
@@ -164,6 +159,7 @@ export default [
             lng: -122.81645190370614
         },
         URL: "https://www.google.com/maps/place/Barnet+Marine+Park/@49.2904319,-122.9237377,15z/data=!4m2!3m1!1s0x0:0x2790e0339c216d11?sa=X&ved=2ahUKEwjS8t6d5f77AhXKIzQIHXsXBYwQ_BJ6BQiDARAI",
+        features: ["water", "hiking"],
         smalldogs: false,
         water: true,
         fence: false,
@@ -186,10 +182,7 @@ export default [
             lng: -10
         },
         URL: "https://www.google.com/maps/place/Skyline+Park+Off-leash+Dog+Area/@49.2387863,-122.7860322,15z/data=!4m5!3m4!1s0x0:0xa2240ca38f6dd814!8m2!3d49.2387863!4d-122.7860322",
-        smalldogs: false,
-        water: false,
-        fence: false,
-        offLeashWandering: false,
+        features: ["bananas"],
     },
     {
         id: 9,
@@ -208,6 +201,7 @@ export default [
             lng: -10
         },
         URL: "https://www.gohttps://www.google.com/maps/place/Leigh+Park+Off-Leash+Dog+Area/@49.2878731,-122.7509211,15z/data=!4m2!3m1!1s0x0:0x8112693070c0d60?sa=X&ved=2ahUKEwjy2dG41oT8AhW1GTQIHSxQDgcQ_BJ6BAhqEAgogle.com/maps/place/Skyline+Park+Off-leash+Dog+Area/@49.2387863,-122.7860322,15z/data=!4m5!3m4!1s0x0:0xa2240ca38f6dd814!8m2!3d49.2387863!4d-122.7860322",
+        features: ["smalldogs", "water", "fence"],
         smalldogs: true,
         water: true,
         fence: true,

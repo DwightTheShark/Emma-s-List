@@ -1,5 +1,10 @@
+
+// let water
+// let smalldogs
+// let fence
+// let hiking
 // function features() {
-//     // const [array, setArray] = useState([1, 2, 3, 4]);
+//     const [features, setArray] = useState([smalldogs, water, hiking, fence]);
 //     const elementToCheck = smalldogs;
   
 //     return (

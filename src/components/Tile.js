@@ -7,10 +7,11 @@ import waterIcon from '@iconify/icons-mdi/water-check'
 import fenceIcon from '@iconify/icons-mdi/fence'
 import smallIcon from '@iconify/icons-mdi/size-s'
 import hikeIcon from '@iconify/icons-mdi/walk'
+import features from './features'
 
 
 export default function Tile(props) {
-    // let badgeText
+   // let badgeText
     // if (props.visits === 0) {
     //     badgeText = "WISHLIST"
     // } else if (props.smalldogs === "Yes") {
@@ -21,15 +22,32 @@ export default function Tile(props) {
 // if y isn't in the array, assign class of hide
 
 
-
     let additionalImg
     if (props.additionalImg instanceof Array) {
         additionalImg = props.additionalImg.map((item) => <img src={item.src} alt={item.alt} className="tiles--additional" />)
     } else if (typeof props.additionalImg != "undefined") {
         additionalImg = <img src={`/${props.additionalImg}`} className="tiles--additional" />
     }   else {
-        console.log("fail")
+        console.log("fail");
     }
+
+    
+
+    
+    
+    
+    // if (!props.features.includes("fence")) {
+    //     features.classList.add('hide')
+    // }
+    
+    // if (!props.features.includes("hike")) {
+    //     element.classList.add('hide')
+    // } 
+    
+    // if (!props.features.includes("smalldog")) {
+    //     element.classList.add('hide')
+    // }
+
 
     
     return (
@@ -46,10 +64,10 @@ export default function Tile(props) {
                     <span className="gray">{props.city}</span>
                 </div>
                 <div className="features">
-                    <Icon icon={waterIcon} className="tile--features show" />
-                    <Icon icon={fenceIcon} className="tile-features" />
-                    <Icon icon={smallIcon} className="tile-features" />
-                    <Icon icon={hikeIcon} className="tile-features" />
+                    {props.features.includes("smalldogs") ? <Icon icon={smallIcon} /> : (null) }
+                    {props.features.includes("water") ? <Icon icon={waterIcon} /> : (null) }
+                    {props.features.includes("hike") ? <Icon icon={hikeIcon} /> : (null) }
+                    {props.features.includes("fence") ? <Icon icon={fenceIcon} /> : (null) }
                 </div>
                 <div className="ratings">
                     <span className="gray"><Icon icon={starIcon} className="tile-icon" />{props.rating}  / 5 • {props.visits} visits</span>
@@ -72,4 +90,4 @@ export default function Tile(props) {
             
         </div>
     )
-}
+    }
