@@ -1,13 +1,17 @@
-![logo](https://res.cloudinary.com/dzhsepmtv/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1671386331/EmmasList/emmalogo_pnn99p.jpg)
-
-
 # Emma's Parks
 
-Social media dog park review app for dog parks in the Vancouver area.  Add photos, comments, and ratings.  Sort by various features.  GoogleMaps and OAuth integration.
-
-Working project for demonstrating ongoing skill development and practice in React with Node.js/MongoDB backend.
+Dog park review app for the Greater Vancouver Area, living breathing website developing as I practice React.
 
 ## Demo
-[Live here](https://emmaslist.netlify.app/)
+[Currently live here](https://emmaslist.netlify.app/)
+
+## Optimizations for Dec 26-Jan 8
+- add media queries for various screen sizes
+- add backend - MongoDB, GoogleAuth, nodemailer for lost passwords and emails
+- add ability to comment and add images, similar to functionality in [previous project](https://github.com/DwightTheShark/WeddingPlanApp)
+- add cloudinary image hosting
+- add visit counts and favourites
 
 ![Twitter Link](https://img.shields.io/twitter/follow/witchadora?style=social)
+
+![logo](https://res.cloudinary.com/dzhsepmtv/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1671386331/EmmasList/emmalogo_pnn99p.jpg)
