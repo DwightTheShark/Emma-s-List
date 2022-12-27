@@ -28,6 +28,7 @@ export default function App() {
         url={item.URL}
         additionalImg={item.additionalImg}
         features={item.features}
+        parking={item.parking}
         
     />)})
     
