@@ -33,7 +33,6 @@ export default [
           id: 2,
           city: "Coquitlam",
           title: "Glen Pine",
-          coverImg: "dogswim.jpg",
           description: "This off-leash dog park in Coquitlam is located just down the road from Lafarge Lake.  It has a large fenced enclosure and a separate small-dog fenced enclosure.",
           parking: "There is plenty of parking in the parking lot off of Westwood Street as well as street parking on Pipeline Road.",
           price: 0,

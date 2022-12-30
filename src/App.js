@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header.js';
 import Tile from './components/Tile.js';
 import data from './data.js';
-import Map from './components/Map/Map'
-
+import login from './Login/login'
+// import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 export default function App() {
 
@@ -35,6 +34,7 @@ export default function App() {
   return (
     <div className="App">
       <Header />
+      <login />
       <section className="tiles-list">
                 {tiles}
       </section>
