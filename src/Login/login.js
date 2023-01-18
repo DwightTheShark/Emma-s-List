@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-// import emmalogo from "../../public/emmalogo.jpg";
 import "./login.css";
+import { useState, useEffect } from "react";
+
 
 // export default function Login() {
 // const { email } = useForm<FormValues>();
@@ -32,7 +33,7 @@ export default class login extends Component {
   handleSubmit(e) {
     e.preventDefault();
     const { email, password } = this.state;
-    fetch("./login.js"), {
+    fetch("https://localhost:3000/login", {
       method: "POST",
       crossDomain:true,
       headers: {
@@ -44,7 +45,7 @@ export default class login extends Component {
         email,
         password,
       })
-    }
+    })
       .then((res) => res.json())
       .then((data) => {
         console.log(data, "User")
