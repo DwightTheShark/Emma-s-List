@@ -28,6 +28,7 @@ export default [
         water: true,
         fence: true,
         offLeashWandering: true,
+        isFavourite: true,
     },
       {
           id: 2,
@@ -53,6 +54,7 @@ export default [
           water: false,
           fence: true,
           offLeashWandering: false,
+          isFavourite: false,
       },
       {
           id: 3,
@@ -78,6 +80,7 @@ export default [
           water: true,
           fence: true,
           offLeashWandering: false,
+          isFavourite: true,
       },
       {
         id: 4,
@@ -102,6 +105,7 @@ export default [
         water: false,
         fence: false,
         offLeashWandering: true,
+        isFavourite: true,
     },
     {
         id: 5,
@@ -142,6 +146,7 @@ export default [
         },
         URL: "https://www.google.com/maps/place/Castle+Park+Off-leash+Dog+Area/@49.2309884,-122.7814515,15z/data=!4m2!3m1!1s0x0:0xba75c33c25a8cadd?sa=X&ved=2ahUKEwj3opaA6Pn7AhXdHzQIHabtARQQ_BJ6BAhzEAg",
         features: ["water", "smalldogs", "fence"],
+        isFavourite: false,
     },
     {
         id: 7,
@@ -165,6 +170,7 @@ export default [
         water: true,
         fence: false,
         offLeashWandering: true,
+        isFavourite: false,
     },
     {
         id: 8,
@@ -184,6 +190,7 @@ export default [
         },
         URL: "https://www.google.com/maps/place/Skyline+Park+Off-leash+Dog+Area/@49.2387863,-122.7860322,15z/data=!4m5!3m4!1s0x0:0xa2240ca38f6dd814!8m2!3d49.2387863!4d-122.7860322",
         features: ["bananas"],
+        isFavourite: "",
     },
     {
         id: 9,
@@ -207,5 +214,6 @@ export default [
         water: true,
         fence: true,
         offLeashWandering: false,
+        isFavourite: false,
     }
 ]

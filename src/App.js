@@ -3,7 +3,7 @@ import Header from './components/Header.js';
 import Tile from './components/Tile.js';
 import data from './data.js';
 import login from './Login/login'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 
 export default function App() {
@@ -29,11 +29,17 @@ export default function App() {
         additionalImg={item.additionalImg}
         features={item.features}
         parking={item.parking}
-        
+        favourite={item.isFavourite}
     />)})
     
   return (
-    <Router>
+    // <Router>
+    // everythign else goes ion here.
+    // <Route path="/" exact component={TodosList} />
+    // <Route path="/edit/:id" component={EditToDo} />
+    // <Route path="/create" component={CreateToDo} />
+
+    // </Router>
     <div className="App">
       <Header />
       <login />
@@ -41,12 +47,7 @@ export default function App() {
                 {tiles}
       </section>
     </div>
-    <Route path="/" exact component={TodosList} />
-    <Route path="/edit/:id" component={EditToDo} />
-    <Route path="/create" component={CreateToDo} />
-
-    </Router>
-  );
+    );
 }
 
 

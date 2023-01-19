@@ -8,23 +8,37 @@ import fenceIcon from '@iconify/icons-mdi/fence'
 import smallIcon from '@iconify/icons-mdi/size-s'
 import hikeIcon from '@iconify/icons-mdi/walk'
 import filledHeartIcon from '@iconify/icons-mdi/cards-heart'
-import filledHeartIcon from '@iconify/icons-mdi/cards-heart-outline'
+import heartIcon from '@iconify/icons-mdi/cards-heart-outline'
 import features from './features'
+import Favourite from './Favourite.js'
+import React from 'react'
 
 
 export default function Tile(props) {
    // let badgeText
     // if (props.visits === 0) {
     //     badgeText = "WISHLIST"
-    // } else if (props.smalldogs === "Yes") {
-    //     badgeText = "Small dogs"
+    // } else {
+    //     badgeText = null
     // }
     
+    //favicon
     // let favouriteIcon
     // if (props.isFavourite === true) {
-    //     filledHeart = 
+    //     favouriteIcon = filledHeartIcon
+    // } else {
+    //     favouriteIcon = heartIcon
     // }
+    
+    const [favourite, setFavourite] = React.useState()
 
+    function toggleFavourite() {
+        setFavourite(prevFavourite => ({   
+            isFavorite: !prevFavourite.isFavorite
+        }))
+    }
+
+    //show additional images
     let additionalImg
     if (props.additionalImg instanceof Array) {
         additionalImg = props.additionalImg.map((item) => <img src={item.src} alt={item.alt} className="tiles--additional" />)
@@ -49,8 +63,10 @@ export default function Tile(props) {
         <div className="tile">
             <div className = "tile--left">
                 {/* {badgeText && <div className="tile--badge">{badgeText}</div>} */}
-                <p className="tile-icon"><Icon icon={filledHeartIcon}/></p>
+                {/* <p id="favourite" className="tile-icon"><Icon icon={favouriteIcon}/></p> */}
                 <img src={`/${props.img}`} className="tile--image" />
+                <Favourite isFilled={props.isFavourite} handleClick={toggleFavourite}/>
+                <Favourite />
             </div>
             <div className="tile--right">
                 <span className="tile--title">{props.title}</span>
