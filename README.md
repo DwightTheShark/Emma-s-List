@@ -1,16 +1,18 @@
-# Emma's Parks
+## Emma's List
 
-Dog park review app for the Greater Vancouver Area, living breathing website developing as I practice React.
+Dog park review app for the Tricity/Greater Vancouver Area, living breathing website developing as I practice React.
 
-## Demo
+# Demo
 [Currently live here](https://emmaslist.netlify.app/)
 
-## Optimizations for Dec 26-Jan 8
-- add media queries for various screen sizes
-- add backend - MongoDB, GoogleAuth, nodemailer for lost passwords and emails
+[Static gif - updated 01/18/2023](https://i.ibb.co/sH0mCqs/preview.gif)
+
+# Ongoing Issues and New Features
+Ongoing work is on [this project board](https://github.com/users/DwightTheShark/projects/1).
+
+# Future Optimizations
 - add ability to comment and add images, similar to functionality in [previous project](https://github.com/DwightTheShark/WeddingPlanApp)
-- add cloudinary image hosting
-- add visit counts and favourites
+- add visit counts
 
 ![Twitter Link](https://img.shields.io/twitter/follow/witchadora?style=social)
 
