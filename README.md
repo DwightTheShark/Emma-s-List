@@ -4,7 +4,8 @@ Dog park review app for the Tricity/Greater Vancouver Area, living breathing web
 
 # Demo
 [Currently live here](https://emmaslist.netlify.app/)
-!([https://i.ibb.co/vY7whkL/preview.gif](https://i.ibb.co/sH0mCqs/preview.gif))
+
+![https://i.ibb.co/vY7whkL/preview.gif](https://i.ibb.co/sH0mCqs/preview.gif)
 
 # Ongoing Issues and New Features
 Ongoing work is on [this project board](https://github.com/users/DwightTheShark/projects/1).
