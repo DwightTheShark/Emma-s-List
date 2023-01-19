@@ -66,7 +66,7 @@ export default function Tile(props) {
                 {/* <p id="favourite" className="tile-icon"><Icon icon={favouriteIcon}/></p> */}
                 <img src={`/${props.img}`} className="tile--image" />
                 <Favourite isFilled={props.isFavourite} handleClick={toggleFavourite}/>
-                <Favourite />
+                {/* <Favourite /> */}
             </div>
             <div className="tile--right">
                 <span className="tile--title">{props.title}</span>
