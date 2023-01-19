@@ -7,6 +7,8 @@ import waterIcon from '@iconify/icons-mdi/water-check'
 import fenceIcon from '@iconify/icons-mdi/fence'
 import smallIcon from '@iconify/icons-mdi/size-s'
 import hikeIcon from '@iconify/icons-mdi/walk'
+import filledHeartIcon from '@iconify/icons-mdi/cards-heart'
+import filledHeartIcon from '@iconify/icons-mdi/cards-heart-outline'
 import features from './features'
 
 
@@ -18,6 +20,10 @@ export default function Tile(props) {
     //     badgeText = "Small dogs"
     // }
     
+    // let favouriteIcon
+    // if (props.isFavourite === true) {
+    //     filledHeart = 
+    // }
 
     let additionalImg
     if (props.additionalImg instanceof Array) {
@@ -43,7 +49,7 @@ export default function Tile(props) {
         <div className="tile">
             <div className = "tile--left">
                 {/* {badgeText && <div className="tile--badge">{badgeText}</div>} */}
-           
+                <p className="tile-icon"><Icon icon={filledHeartIcon}/></p>
                 <img src={`/${props.img}`} className="tile--image" />
             </div>
             <div className="tile--right">
