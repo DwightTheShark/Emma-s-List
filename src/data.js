@@ -101,10 +101,6 @@ export default [
         },
         URL: "https://www.alltrails.com/explore/recording/evening-hike-at-furry-creek-knob-deck-trail-798cebc",
         features: ["hiking"],
-        smalldogs: false,
-        water: false,
-        fence: false,
-        offLeashWandering: true,
         isFavourite: true,
     },
     {
