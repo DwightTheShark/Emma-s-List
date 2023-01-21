@@ -29,7 +29,7 @@ export default function App() {
         additionalImg={item.additionalImg}
         features={item.features}
         parking={item.parking}
-        favourite={item.isFavourite}
+        isFavourite={item.isFavourite}
     />)})
     
   return (

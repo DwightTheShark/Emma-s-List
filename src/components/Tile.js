@@ -11,7 +11,7 @@ import filledHeartIcon from '@iconify/icons-mdi/cards-heart'
 import heartIcon from '@iconify/icons-mdi/cards-heart-outline'
 import features from './features'
 import Favourite from './Favourite.js'
-import React from 'react'
+import React, { useState } from 'react'
 
 
 export default function Tile(props) {
@@ -21,22 +21,20 @@ export default function Tile(props) {
     // } else {
     //     badgeText = null
     // }
-    
-    //favicon
-    // let favouriteIcon
-    // if (props.isFavourite === true) {
-    //     favouriteIcon = filledHeartIcon
-    // } else {
-    //     favouriteIcon = heartIcon
-    // }
-    
-    const [favourite, setFavourite] = React.useState()
 
-    function toggleFavourite() {
-        setFavourite(prevFavourite => ({   
-            isFavorite: !prevFavourite.isFavorite
-        }))
-    }
+    const [favourite, setFavourite] = React.useState(props.isFavourite)
+
+    // function toggleFavourite() {
+    //     setFavourite(prevFavourite => ({   
+    //         ...prevFavourite,
+    //         isFavourite: !prevFavourite.isFavourite
+    //     }))
+    // }
+
+    const toggleFavourite = () => {
+        console.log("i got the click!", favourite)
+        setFavourite(!favourite);
+      };
 
     //show additional images
     let additionalImg
@@ -65,8 +63,9 @@ export default function Tile(props) {
                 {/* {badgeText && <div className="tile--badge">{badgeText}</div>} */}
                 {/* <p id="favourite" className="tile-icon"><Icon icon={favouriteIcon}/></p> */}
                 <img src={`/${props.img}`} className="tile--image" />
-                <Favourite isFilled={props.isFavourite} handleClick={toggleFavourite}/>
-                {/* <Favourite /> */}
+                <div >
+                    <Favourite isFavourite={favourite} handleClick={toggleFavourite}/>
+                </div>
             </div>
             <div className="tile--right">
                 <span className="tile--title">{props.title}</span>
