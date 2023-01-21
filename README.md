@@ -3,6 +3,8 @@
 Dog park review app for the Tricity/Greater Vancouver Area, living breathing website developing as I practice React.
 
 # Demo
+![Front page preview](https://i.ibb.co/p3d4nLt/frontpage-preview.png)
+
 [Currently live here](https://emmaslist.netlify.app/)
 
 [Static gif - updated 01/18/2023](https://i.ibb.co/sH0mCqs/preview.gif)
