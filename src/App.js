@@ -29,7 +29,25 @@ export default function App() {
   if(searchedItem.length > 0 && !item.city.includes(searchedItem))
   {
      return null;
-  }
+  } 
+  
+  // else if (searchedItem.includes(searchedItem) && ) {
+    
+  // }
+
+  // function myFunction() {
+  //   // Get the checkbox
+  //   var checkBox = document.getElementById("myCheck");
+  //   // Get the output text
+  //   var text = document.getElementById("text");
+  
+  //   // If the checkbox is checked, display the output text
+  //   if (checkBox.checked == true){
+  //     text.style.display = "block";
+  //   } else {
+  //     text.style.display = "none";
+  //   }
+  // }
   return (
     <Tile
         key={item.id}
