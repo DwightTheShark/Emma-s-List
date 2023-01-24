@@ -15,6 +15,7 @@ import React, { useState } from 'react'
 
 
 export default function Tile(props) {
+   // enables people to mark something as being on their wishlist
    // let badgeText
     // if (props.visits === 0) {
     //     badgeText = "WISHLIST"
@@ -22,19 +23,14 @@ export default function Tile(props) {
     //     badgeText = null
     // }
 
+    //toggle favourite
     const [favourite, setFavourite] = React.useState(props.isFavourite)
-
-    // function toggleFavourite() {
-    //     setFavourite(prevFavourite => ({   
-    //         ...prevFavourite,
-    //         isFavourite: !prevFavourite.isFavourite
-    //     }))
-    // }
 
     const toggleFavourite = () => {
         console.log("i got the click!", favourite)
         setFavourite(!favourite);
       };
+      //eventually this needs to go to mongoDB
 
     //show additional images
     let additionalImg
@@ -61,7 +57,6 @@ export default function Tile(props) {
         <div className="tile">
             <div className = "tile--left">
                 {/* {badgeText && <div className="tile--badge">{badgeText}</div>} */}
-                {/* <p id="favourite" className="tile-icon"><Icon icon={favouriteIcon}/></p> */}
                 <img src={`/${props.img}`} className="tile--image" />
                 <div >
                     <Favourite isFavourite={favourite} handleClick={toggleFavourite}/>
