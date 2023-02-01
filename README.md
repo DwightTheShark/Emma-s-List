@@ -13,8 +13,8 @@ Dog park review app for the Tricity/Greater Vancouver Area, living breathing web
 Ongoing work is on [this project board](https://github.com/users/DwightTheShark/projects/1).
 
 # Future Optimizations
-- add ability to comment and add images, similar to functionality in [previous project](https://github.com/DwightTheShark/WeddingPlanApp)
 - add visit counts
+- build into tutorial chunks for teaching ease
 
 ![Twitter Link](https://img.shields.io/twitter/follow/witchadora?style=social)
 
