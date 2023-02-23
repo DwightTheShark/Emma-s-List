@@ -1,6 +1,6 @@
 ## Emma's List
 
-Dog park review app for the Tricity/Greater Vancouver Area, living breathing website developing as I practice React.
+Dog park review app for the Tricity/Greater Vancouver Area, living breathing website developing as I practice teaching React skills.
 
 # Demo
 ![Front page preview](https://i.ibb.co/p3d4nLt/frontpage-preview.png)
